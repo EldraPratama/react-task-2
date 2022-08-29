@@ -15,10 +15,12 @@ function Nav() {
     if (!auth) return null;
     
     return (
-        <nav className="navbar navbar-expand navbar-dark bg-dark">
+        <nav className="navbar navbar-expand navbar-dark bg-primary">
             <div className="navbar-nav">
                 <NavLink exact to="/" className="nav-item nav-link">Home</NavLink>
                 <NavLink to="/users" className="nav-item nav-link">Users</NavLink>
+                <NavLink to="/databuku" className="nav-item nav-link">Data Buku</NavLink>
+                <NavLink to="/transaksi" className="nav-item nav-link">Transaksi</NavLink>
                 <a onClick={userActions.logout} className="nav-item nav-link">Logout</a>
             </div>
         </nav>
