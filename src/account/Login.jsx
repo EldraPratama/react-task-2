@@ -26,7 +26,7 @@ function Login() {
         <div className="card m-3 shadow p-3 mb-5 bg-white rounded">
             
             {/* <h4 className="card-header">Login</h4> */}
-            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/LOGO-PERPUSNAS.svg" height="200px" alt=""/>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/LOGO-PERPUSNAS.svg" height="220px" alt=""/>
             <div className="card-body">
                 
                 <form onSubmit={handleSubmit(userActions.login)}>
